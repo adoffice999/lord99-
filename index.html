@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aviator Hack Signal</title>
+  <title>G99 Win - Skill Based Entertainment</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet" />
   <style>
     * {
@@ -34,10 +34,10 @@
     .telegram-btn {
       background: linear-gradient(to right, #007aff, #003fc5);
       color: white;
-      padding: 15px 30px;
+      padding: 18px 40px;
       border: none;
       border-radius: 30px;
-      font-size: 1rem;
+      font-size: 1.1rem;
       cursor: pointer;
       margin: 20px 0;
       display: inline-block;
@@ -80,16 +80,18 @@
       justify-content: center;
       gap: 10px;
       margin: 20px 0;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
     }
 
     .countdown-box {
       background: yellow;
       color: black;
-      padding: 10px 15px;
+      padding: 20px;
       font-weight: bold;
       border-radius: 8px;
-      min-width: 60px;
+      font-size: 1rem;
+      flex: 1;
+      max-width: 90px;
       text-align: center;
     }
 
@@ -97,12 +99,15 @@
       margin-top: 30px;
       color: #ccc;
       font-size: 0.9rem;
+      background-color: #000;
+      padding: 15px;
+      border-radius: 10px;
     }
 
     @media (max-width: 480px) {
       .telegram-btn {
-        padding: 12px 20px;
-        font-size: 0.9rem;
+        padding: 14px 25px;
+        font-size: 1rem;
       }
 
       .logo {
@@ -111,6 +116,10 @@
 
       h1 {
         font-size: 1.2rem;
+      }
+
+      .countdown {
+        flex-wrap: wrap;
       }
     }
   </style>
@@ -121,7 +130,7 @@
 
   <h1>🚀 AVIATOR 🤑 HACK SIGNAL 🚀</h1>
 
-  <a href="https://t.me/YOUR_CHANNEL_LINK" class="telegram-btn">📲 JOIN VIP CHANNEL</a>
+  <a href="https://t.me/+PWxyCqJmRBs1MTFl" class="telegram-btn">📲 JOIN VIP CHANNEL</a>
 
   <div class="rating">
     <strong>Channel Rating:</strong><br />
@@ -135,7 +144,7 @@
   <div class="countdown" id="countdown">
     <div class="countdown-box"><span id="days">00</span><br>Days</div>
     <div class="countdown-box"><span id="hours">00</span><br>Hours</div>
-    <div class="countdown-box"><span id="minutes">00</span><br>Minutes</div>
+    <div class="countdown-box"><span id="minutes">01</span><br>Minutes</div>
     <div class="countdown-box"><span id="seconds">00</span><br>Seconds</div>
   </div>
 
@@ -144,8 +153,8 @@
   </footer>
 
   <script>
-    // Set target countdown date (e.g., 5 minutes from now)
-    const endDate = new Date(new Date().getTime() + 5 * 60000);
+    // Set countdown for 1 minute from page load
+    const endDate = new Date(new Date().getTime() + 1 * 60000);
 
     const countdown = () => {
       const now = new Date().getTime();
